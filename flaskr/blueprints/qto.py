@@ -7,11 +7,6 @@ from collections import Counter
 # Initiating the blueprint and assigning to it the "/op/" URI
 bp = Blueprint('some_operation', __name__, url_prefix='/op')
 
-# Adding a function to the "/op/" URI
-@bp.route('/', methods=['GET'])
-def description():
-    return render_template('qto.html')
-
 # Adding a function to the "/op/some-operation" URI
 @bp.route('/qto', methods=('GET', 'POST'))
 def operation():
