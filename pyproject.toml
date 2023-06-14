@@ -1,5 +1,5 @@
 [project]
-name = "template-microservice-py"
+name = "microservice-op-qto"
 version = "1.0.0"
 dependencies = [
     "flask",
