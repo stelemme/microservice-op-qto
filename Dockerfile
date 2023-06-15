@@ -10,6 +10,4 @@ WORKDIR /app
 
 RUN pip install --editable .
 
-EXPOSE 3000
-
 CMD [ "flask", "run", "--host=0.0.0.0", "--port=80"]
