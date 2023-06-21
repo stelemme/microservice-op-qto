@@ -1,8 +1,6 @@
 FROM python:3.9-alpine
 
-ENV PORT=3000
 ENV FLASK_APP=flaskr
-ENV FLASK_DEBUG=1
 
 COPY . /app
 
